@@ -1,0 +1,27 @@
+Ejercicio1: Repaso--> check
+Crea un programa en Java donde dos hilos interactuen para compartir un recurso.
+El hilo productor (primer hilo) generará un numero aleatorio y solo mostrara por pantalla "se ha generado un numero"
+El hilo consumido (segundo hilo) mostrara el numero creado por el productor
+
+Ejercicio3--> check
+Crea un programa en Java de dos hilos que impriman mensajes alternados.
+El hilo 1 debe de imprimir "PING" y el hilo 2 debe de imprimir "PONG".
+Los hilos deben de sincronizarse de manera que nunca impriman dos mensajes consecutivos sin alternar
+
+
+___________________________________________________________________
+
+
+Ejercicio2:
+Crea un programa en java que coordine la ejecucion de 3 hilos trabajadores.
+Los trabajadores deben de esperar hasta que el hilo principal les notifique que pueden empezar.
+Cuando los tres trabajadores reciban la notificacion deben de imprimir un mensaje indicando que han empezado a trabajar.
+
+Ejercicio4:notify y notifyAll
+Crea un programa en Java que simule un estacionamiento con capacidad maxima de 3 plazas.
+Varios Vehiculos (hilos) intentan estacionar.
+Si el parking esta lleno, los vehiculos deben esperar hasta que el otro salga.
+Cuando un vehiculo abandona el parking,
+debe de notificar a los vehiculos esperando que una plaza esta disponible.
+Usar notify() para notificar a un vehiculo y notifyALL() para notificar a todos los vehiculos en caso
+de cambios importantes, como el cierrre del parking.
